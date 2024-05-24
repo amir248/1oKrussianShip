@@ -59,16 +59,18 @@ body > header > nav > ol > a:nth-child(1) > li:after{
   /* transform: skew(-0.07turn, 0deg); */
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg) skew(-0.07turn, 0deg);
 }
 body > header > nav > ol > a:nth-child(1):hover > li:after{
   content: 'home';
   /* transform: ; */
+  color:white;
+  text-shadow: 1px 1px black;
   right:7px;
   position: absolute;
-  color:green;
   transition: all 1s ease-out;
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
@@ -76,7 +78,8 @@ body > header > nav > ol > a:nth-child(2) > li:after{
   content: 'about';
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg) skew(-0.07turn, 0deg);
 }
@@ -84,7 +87,8 @@ body > header > nav > ol > a:nth-child(2):hover > li:after{
   content: 'about';
   right:7px;
   position: absolute;
-  color:green;
+  color:white;
+  text-shadow: 1px 1px black;
   transition: all 1s ease-out;
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
@@ -92,7 +96,8 @@ body > header > nav > ol > a:nth-child(3) > li:after{
   content: 'photo';
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg) skew(-0.07turn, 0deg);
 }
@@ -101,7 +106,8 @@ body > header > nav > ol > a:nth-child(3):hover > li:after{
   content: 'photo';
   right:7px;
   position: absolute;
-  color:green;
+  color:white;
+  text-shadow: 1px 1px black;
   transition: all 1s ease-out;
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
@@ -109,7 +115,8 @@ body > header > nav > ol > a:nth-child(4) > li:after{
   content: 'advertiser';
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg) skew(-0.07turn, 0deg);
 }
@@ -117,7 +124,8 @@ body > header > nav > ol > a:nth-child(4):hover > li:after{
   content: 'advertiser';
   right:7px;
   position: absolute;
-  color:green;
+  color:white;
+  text-shadow: 1px 1px black;
   transition: all 1s ease-out;
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
@@ -125,7 +133,8 @@ body > header > nav > ol > a:nth-child(5) > li:after{
   content: 'contact';
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg) skew(-0.07turn, 0deg);
 }
@@ -133,7 +142,8 @@ body > header > nav > ol > a:nth-child(5):hover > li:after{
   content: 'contact';
   right:7px;
   position: absolute;
-  color:green;
+  color:white;
+  text-shadow: 1px 1px black;
   transition: all 1s ease-out;
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
@@ -141,7 +151,8 @@ body > header > nav > ol > a:nth-child(6) > li:after{
   content: 'oK';
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg)skew(-0.07turn, 0deg);
 }
@@ -149,7 +160,8 @@ body > header > nav > ol > a:nth-child(6):hover > li:after{
   content: 'oK';
   right:7px;
   position: absolute;
-  color:green;
+  color:white;
+  text-shadow: 1px 1px black;
   transition: all 1s ease-out;
   transform:rotate(360deg) skew(-0.07turn, 0deg);
 }
@@ -157,7 +169,8 @@ body > header > nav > ol > a:nth-child(7) > li:after{
   content: 'comments';
   right:7px;
   position: absolute;
-  color:yellow;
+  color:black;
+  text-shadow: 1px 1px grey;
   transition: all 1s ease-out;
   transform:rotate(0deg)skew(-0.07turn, 0deg);
 }
@@ -165,7 +178,8 @@ body > header > nav > ol > a:nth-child(7):hover > li:after{
   content: 'comments';
   right:7px;
   position: absolute;
-  color:green;
+  color:white;
+  text-shadow: 1px 1px black;
   transition: all 1s ease-out;
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
@@ -389,7 +403,7 @@ article{
   position: relative;
   width:100%;
   max-width: 300px;
-  background: linear-gradient(green, yellow);
+  background: linear-gradient(grey, yellow);
   display:flex;
   justify-content: center;
   z-index: 3;
