@@ -611,12 +611,12 @@ a > button{
   height:40px;
   max-width: 100%;
   color:white;
-  background: green;
+  background: linear-gradient(green, black);
   text-shadow: 1px 1px black;
   border-radius: 7px;
 }
 a > button:hover{
-  background: rgba(255, 199, 0, 1);
-  color:white;
-  border: 2px solid white;
+  background: linear-gradient(yellow,rgba(255, 199, 0, 1));
+  color:lightgrey;
+  border: 2px solid lightgrey;
 }
