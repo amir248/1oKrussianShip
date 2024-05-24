@@ -545,6 +545,7 @@ article{
   min-width: 300px;
   max-width: 500px;
   height:90px;
+  cursor: crosshair;
 }
 @media(max-width:300px){
   .yellowBackground > picture > img{
