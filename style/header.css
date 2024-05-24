@@ -596,13 +596,13 @@ a > button{
   font-size: 33px;
   height:40px;
   max-width: 100%;
-  color:rgba(255, 199, 0, 1);
+  color:white;
   background: green;
   text-shadow: 1px 1px black;
   border-radius: 7px;
 }
 a > button:hover{
   background: rgba(255, 199, 0, 1);
-  color:green;
-  border: 2px solid green;
+  color:white;
+  border: 2px solid white;
 }
