@@ -1,5 +1,6 @@
 document.querySelector('.menu').addEventListener('click',()=>{
   console.log('click');
+
   let menuOpen=document.createElement('div');
   menuOpen.style.cssText=`
   display:flex;
@@ -18,6 +19,7 @@ document.querySelector('.menu').addEventListener('click',()=>{
   menuOpen.innerHTML='there will be a menu here';
 
   document.querySelector('nav').prepend(menuOpen);
+
   document.getElementById('menu').addEventListener('click',()=>{
     document.querySelector("#menu").remove();
   });
