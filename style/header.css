@@ -54,6 +54,24 @@ header > nav > ol > a{
   color:transparent;
 
 }
+header > nav > ol > li{
+  margin-right: 7px;
+  display:inline-block;
+  transform: skew(0.07turn, 0deg);
+  background: green;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color:transparent;
+  color:none;
+}
+header > nav > ol > li{
+  text-decoration: none;
+  font-size: 25px;
+  color:transparent;
+
+}
 body > header > nav > ol > a:nth-child(1) > li:after{
   content: 'home';
   /* transform: skew(-0.07turn, 0deg); */
@@ -148,7 +166,7 @@ body > header > nav > ol > a:nth-child(5):hover > li:after{
   transform:rotate(360deg)skew(-0.07turn, 0deg);
 }
 body > header > nav > ol > a:nth-child(6) > li:after{
-  content: 'oK';
+  content: '🍔';
   right:7px;
   position: absolute;
   color:black;
@@ -157,7 +175,7 @@ body > header > nav > ol > a:nth-child(6) > li:after{
   transform:rotate(0deg)skew(-0.07turn, 0deg);
 }
 body > header > nav > ol > a:nth-child(6):hover > li:after{
-  content: 'oK';
+  content: '🍔';
   right:7px;
   position: absolute;
   color:white;
@@ -165,7 +183,27 @@ body > header > nav > ol > a:nth-child(6):hover > li:after{
   transition: all 1s ease-out;
   transform:rotate(360deg) skew(-0.07turn, 0deg);
 }
-body > header > nav > ol > a:nth-child(7) > li:after{
+ /* replace this menu */
+body > header > nav > ol > li:after{
+  content: '🍔';
+  right:7px;
+  position: absolute;
+  color:black;
+  text-shadow: 1px 1px grey;
+  transition: all 1s ease-out;
+  transform:rotate(0deg)skew(-0.07turn, 0deg);
+}
+body > header > nav > ol > li:hover:after{
+  content: '🍔';
+  right:7px;
+  position: absolute;
+  color:white;
+  text-shadow: 1px 1px black;
+  transition: all 1s ease-out;
+  transform:rotate(360deg) skew(-0.07turn, 0deg);
+}
+/* here menu oK */
+body > header > nav > ol > a:nth-child(8) > li:after{
   content: 'comments';
   right:7px;
   position: absolute;
@@ -174,7 +212,7 @@ body > header > nav > ol > a:nth-child(7) > li:after{
   transition: all 1s ease-out;
   transform:rotate(0deg)skew(-0.07turn, 0deg);
 }
-body > header > nav > ol > a:nth-child(7):hover > li:after{
+body > header > nav > ol > a:nth-child(8):hover > li:after{
   content: 'comments';
   right:7px;
   position: absolute;
